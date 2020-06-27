@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-.nav-link{
-    margin:0px 80px 0px 0px;
-    font-size: 1.5em;
-}
 .navbar{
-    background-color:  #f94823 ;
+    background-color: chocolate;
 }
-.nav-item a:hover{
-background-color: #f94823  ;
-=======
-.navbar{
-    background-color: cyan;
->>>>>>> front
+.icon{
+    margin: 0px 0px 0px 10px;
+}
+a.upperlink{
+    text-decoration: none;
+    color: black;
 }
