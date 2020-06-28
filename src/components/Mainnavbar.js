@@ -7,7 +7,7 @@ export class Mainnavbar extends Component {
         return (
             <div>
                 <Container>
-                <Navbar > 
+                <Navbar className="nav" > 
                     <Navbar.Brand href="#"><img src={process.env.PUBLIC_URL + '/images/logo.png'}/></Navbar.Brand>
                     <Nav className="ml-auto">
                     <Nav.Link className="text-large" href="#">Home</Nav.Link>
