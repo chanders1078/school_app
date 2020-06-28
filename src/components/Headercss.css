@@ -1,10 +1,40 @@
-.navbar{
+/*Top Header Contact_info------------css------*/
+.header-top{
     background-color: chocolate;
+    overflow: hidden;
 }
-.icon{
-    margin: 0px 0px 0px 10px;
+.container{
+    max-width: 1240px;
 }
-a.upperlink{
+.contact-info{
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.contact-info ul li{
+    padding: 20px 15px 20px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Rubik',sans-serif;
+    float: left;
+}
+.login-info{
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.login-info ul li{
+    padding: 20px 15px 20px 0px;
+    font-size: 18;
+    color: #ffffff;
+    float: left;
+}
+.login-info ul li a{
     text-decoration: none;
-    color: black;
+    color: #ffffff;
+}
+/* Header-top End------*/
+/*-----------------Main Navbar Start---------------*/
+.nav{
+    font-size:1.5rem;
+    font-family:sans-serif;
 }
