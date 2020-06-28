@@ -1,37 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 /*Top Header Contact_info------------css------*/
 .header-top{
     background-color: chocolate;
     overflow: hidden;
 }
 .container{
-    max-width: 1240px;
+    max-width: 1300px;
 }
 .contact-info{
-    float: left;
-    margin: 0px 0px 0px 0px;
+   color: #ffffff;
+   text-decoration: none;
 }
-.contact-info ul li{
-    padding: 20px 15px 20px 0px;
-    font-size: 18px;
-    font-weight: 300;
-    color: #ffffff;
-    font-family: 'Rubik',sans-serif;
-    float: left;
-}
-.login-info{
-    float: left;
-    margin: 0px 0px 0px 0px;
-}
-.login-info ul li{
-    padding: 20px 15px 20px 0px;
-    font-size: 18;
-    color: #ffffff;
-    float: left;
-}
-.login-info ul li a{
-    text-decoration: none;
-    color: #ffffff;
-}
+
 /* Header-top End------*/
 /*-----------------Main Navbar Start---------------*/
 .nav{
