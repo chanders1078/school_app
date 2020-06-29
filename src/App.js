@@ -5,7 +5,9 @@ import {Mainnavbar} from './components/Mainnavbar';
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import About from './components/About';
 import Carouseldiv from './components/Carouseldiv';
+import Jombobox from './components/Jumbobox';
 import Routes from './components/Routes.js';
+
 
 class App extends Component {
   render() {
@@ -14,6 +16,7 @@ class App extends Component {
         <Headertop/>
         <Mainnavbar/>
         <Carouseldiv/>
+        <Jombobox/>
       </div>
     );
   }
