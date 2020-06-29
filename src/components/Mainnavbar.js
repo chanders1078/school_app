@@ -10,7 +10,7 @@ export class Mainnavbar extends Component {
                 <Navbar className="nav" > 
                     <Navbar.Brand href="#"><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo"/></Navbar.Brand>
                     <Nav className="ml-auto">
-                    <Nav.Link className="nav" href="#">Home</Nav.Link>
+                    <Nav.Link className="nav" href="/">Home</Nav.Link>
                     <Nav.Link className="nav" href="#">About</Nav.Link>
                     <Nav.Link className="nav" href="#">Course</Nav.Link>
                     <Nav.Link className="nav" href="#">Contact</Nav.Link>
