@@ -4,6 +4,7 @@ import {Headertop} from './components/Headertop';
 import {Mainnavbar} from './components/Mainnavbar';
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import About from './components/About';
+import Carouseldiv from './components/Carouseldiv';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Headertop/>
         <Mainnavbar/>
+        <Carouseldiv/>
         <Switch>
           <Route path='/abotus' component={About}/>
         </Switch>
