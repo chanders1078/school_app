@@ -7,7 +7,7 @@ import About from './components/About';
 import Carouseldiv from './components/Carouseldiv';
 import Jombobox from './components/Jumbobox';
 import Routes from './components/Routes.js';
-
+import Ourteachers from './components/Ourteachers';
 
 class App extends Component {
   render() {
@@ -17,6 +17,7 @@ class App extends Component {
         <Mainnavbar/>
         <Carouseldiv/>
         <Jombobox/>
+        <Ourteachers/>
       </div>
     );
   }
