@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar,Nav,Container} from 'react-bootstrap';
+import {Navbar,Nav,Container} from 'react-bootstrap';
 import './Headercss.css';
 
 export class Mainnavbar extends Component {
