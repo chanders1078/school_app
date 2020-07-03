@@ -5,6 +5,7 @@ import './../App.css';
 export class Jumbobox extends Component {
     render() {
         return (
+        <div>
             <div className="jumbobox">
                 <Jumbotron style={{backgroundImage: "url('/images/bg1.jpg')",backgroundRepeat:"no-repeat",backgroundSize:"cover",overflow:"hidden"}}>
                     <h1 className="text-center text-white">Best Class Education</h1>
@@ -13,6 +14,7 @@ export class Jumbobox extends Component {
                     </p>
                 </Jumbotron>
             </div>
+        </div>    
         )
     }
 }
