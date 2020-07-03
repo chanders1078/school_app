@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Jumbotron,Button} from 'react-bootstrap';
+import {Jumbotron} from 'react-bootstrap';
 import './../App.css';
 
 export class Jumbobox extends Component {
