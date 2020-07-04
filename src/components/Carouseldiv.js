@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Headercss.css';
 import Jumbobox from './Jumbobox';
+
 export class Carouseldiv extends Component {
     render() {
         return (
@@ -40,11 +41,9 @@ export class Carouseldiv extends Component {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-                <Jumbobox/>
             </div>
         )
     }
 }
 
 export default Carouseldiv;
-export default Carouseldiv
