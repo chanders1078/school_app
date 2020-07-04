@@ -7,7 +7,7 @@ export class Headertop extends Component {
             <div className="header-top">
                 <Container>
                     <Navbar expand="lg">
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <p className="contact-info"><i class="fas fa-phone-alt"></i> +9998845654</p> 
