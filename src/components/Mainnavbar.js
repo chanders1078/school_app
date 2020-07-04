@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {  Navbar,Nav,Container} from 'react-bootstrap';
 import {Navbar,Nav,Container} from 'react-bootstrap';
 import './Headercss.css';
 
@@ -13,7 +14,7 @@ export class Mainnavbar extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                     <Nav.Link className="nav" href="/">Home</Nav.Link>
-                    <Nav.Link className="nav" href="#">About</Nav.Link>
+                    <Nav.Link className="nav" href="/about">About</Nav.Link>
                     <Nav.Link className="nav" href="#">Course</Nav.Link>
                     <Nav.Link className="nav" href="#">Contact</Nav.Link>
                 </Nav>
