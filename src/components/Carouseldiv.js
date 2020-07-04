@@ -8,7 +8,7 @@ export class Carouseldiv extends Component {
             <div>
                 <div className="container-fluid">
                     <Carousel interval={4000} keyboard={false} pauseOnHover={true}>
-                        <Carousel.Item style={{'height':"100"}}>
+                        <Carousel.Item style={{'height':"600px"}}>
                             <img style={{'height':"100"}}
                             className="d-block w-100"
                             src={'images/slider1.jpg'}
@@ -17,7 +17,7 @@ export class Carouseldiv extends Component {
                                 <h2>Learning is a treasure that will follow its owner everywhere</h2>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"100"}}>
+                        <Carousel.Item style={{'height':"600px"}}>
                             <img style={{'height':"100"}}
                             className="d-block w-100"
                             src={'images/slider2.jpg'}
@@ -26,7 +26,7 @@ export class Carouseldiv extends Component {
                                 <h2>If a man's wit be wandering, let him study the mathematics.</h2>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{'height':"100"}}>
+                        <Carousel.Item style={{'height':"600px  "}}>
                             <img style={{'height':"100"}}
                             className="d-block w-100"
                             src={'images/slider3.jpg'}

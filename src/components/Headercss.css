@@ -33,3 +33,10 @@ Carousel{
 .jumbobox {
     padding: 20px 0px 0px 0px;
 }
+.read-more {
+    color: #ffffff;
+    background-color: #ff5a2c;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}

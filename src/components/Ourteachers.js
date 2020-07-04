@@ -11,19 +11,22 @@ export class Ourteachers extends Component {
                 <Card style={{ width: '15rem', margin: 'auto' }}>
                 <Card.Img variant="top" src="/images/bg.jpg" />
                     <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Teacher Name</Card.Title>
+                    <p>Subject</p>
                     </Card.Body>
                     </Card>
                 <Card style={{ width: '15rem', margin: 'auto'}}>
                 <Card.Img variant="top" src="/images/bg.jpg" />
                     <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Teacher Name</Card.Title>
+                    <p>Subject</p>
                     </Card.Body>
                     </Card>
                     <Card style={{ width: '15rem',margin: 'auto' }}>
                 <Card.Img variant="top" src="/images/bg.jpg" />
                     <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Teacher Name</Card.Title>
+                    <p>Subject</p>
                     </Card.Body>
                     </Card>
                     </Row>
