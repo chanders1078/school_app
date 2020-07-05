@@ -1,46 +1,51 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import './Headercss.css';
-import Jumbobox from './Jumbobox';
+import './../App.css';
 
 export class Carouseldiv extends Component {
     render() {
         return (
-            <div>
-                <div className="container-fluid">
-                    <Carousel interval={4000} keyboard={false} pauseOnHover={true}>
-                        <Carousel.Item style={{'height':"600px"}}>
-                            <img style={{'height':"100"}}
-                            className="d-block w-100"
-                            src={'images/slider1.jpg'}
-                            alt="slider1"/>
-                            <Carousel.Caption>
-                                <h2>First Slider</h2>
-                                <h2>Learning is a treasure that will follow its owner everywhere</h2>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item style={{'height':"600px"}}>
-                            <img style={{'height':"100"}}
-                            className="d-block w-100"
-                            src={'images/slider2.jpg'}
-                            alt="slider1"/>
-                            <Carousel.Caption>
-                                <h2>2Nd Slider</h2>
-                                <h2>If a man's wit be wandering, let him study the mathematics.</h2>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item style={{'height':"600px  "}}>
-                            <img style={{'height':"100"}}
-                            className="d-block w-100"
-                            src={'images/slider3.jpg'}
-                            alt="slider1"/>
-                            <Carousel.Caption>
-                                <h2>3Rd Slider</h2>
-                                <h2>Best Classrooms</h2>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                </div>
+            <div className="">
+                 <div className="Container-fluid bg-dark">
+                        <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div className="carousel-inner">
+                              <div className="carousel-item active">
+                                <img src="images/slider1.jpg" className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block">
+                                  <h5>First slide label</h5>
+                                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                              </div>
+                              <div className="carousel-item">
+                                <img src="images/slider2.jpg" className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                              </div>
+                              <div className="carousel-item">
+                                <img src="images/slider3.jpg" className="d-block w-100" alt="..."/>
+                                <div className="carousel-caption">
+                                  <h5>Third slide label</h5>
+                                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </div>
+                              </div>
+                            </div>
+                            {/* <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span className="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span className="sr-only">Next</span>
+                            </a> */}
+                        </div>
+                 </div>
             </div>
         )
     }

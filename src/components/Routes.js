@@ -2,8 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import About from './About';
 import Login from './Login.jsx';
-import Carouseldiv from './Carouseldiv';
-import App from './../App';
+                import App from './../App';
 class Routes extends React.Component {
     render(){
         return(
@@ -11,7 +10,8 @@ class Routes extends React.Component {
                 <Switch>
                 <Route path='/about' component={About}/>
                 <Route path='/login' component={Login}/>
-                <Route path="" component={App}/>
+                <Route path='' component={App}/>
+                {/* <Route path="" component={App}/> */}
                 </Switch>
             </Router>
         );

@@ -4,10 +4,6 @@ import './../App.css';
 
 export class Jumbobox extends Component {
     render() {
-        const mystyle ={
-            color: "black",
-            fontFamily:'sans-serif'
-        };
         return (
             <div className="jumbobox">
                 <Jumbotron style={{backgroundImage: "url('/images/bg1.jpg')",backgroundRepeat:"no-repeat",backgroundSize:"cover",overflow:"hidden"}}>
